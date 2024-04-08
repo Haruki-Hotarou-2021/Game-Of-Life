@@ -180,5 +180,3 @@ function setEvents() {
 }
 setEvents()
 setInterval(main, GOL.updates.main)
-
-console.log("Created by Flymeth (https://flymeth.net)");

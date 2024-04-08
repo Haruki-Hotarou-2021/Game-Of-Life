@@ -1,6 +1,6 @@
 # Game of Life
 
-A neat lab which demonstrates how to use D3 to build Conway's Game of Life. A simple simulation of cells on a grid which obey a few simple rules to produce complex patterns.
+Game of Life is a simple simulation of cells on a grid which obey a few simple rules to produce complex patterns.
 
 ## Rules:
 
