@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>The Game Of Life (by Flymeth)</title>
+    
+    <style>
+        *,::before,::after {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box
+        }
+        html {
+            --nav-h: 50pt;
+        }
+        body {
+            height: 100vh;
+            overflow: hidden;
+            background-color: #646464
+        }
+        canvas {
+            width: 100%;
+            height: calc(100vh - var(--nav-h));
+        }
+        .nav {
+            height: var(--nav-h);
+            display: flex;
+            justify-content: stretch;
+            padding: 0 1.2pt;
+        }
+        .nav>button {
+            width: 100%;
+            margin: 1.2pt;
+            height: 75%;
+            border: dashed 1.2pt #AD6938;
+            text-transform: uppercase;
+            font-weight: 600;
+            font-style: italic;
+            font-size: 1.1rem
+        }
+        .nav>button.active {
+            border-color: #38AD5D
+        }
+    </style>
+</head>
+<body>
+    <canvas>
+        
+    </canvas>
+    <div class="nav">
+        <button class="play">Play</button>
+        <button class="stop">Stop</button>
+        <button class="cls">Erase</button>
+        <button class="save">Save</button>
+        <button class="load">Load</button>
+    </div>
+    <script src="/game.js"></script>
+</body>
+</html>
