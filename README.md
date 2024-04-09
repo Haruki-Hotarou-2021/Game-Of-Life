@@ -1,6 +1,6 @@
 # Game of Life
 
-Game of Life is a simple simulation of cells on a grid which obey a few simple rules to produce complex patterns.
+A Game of Life is a simple simulation of cells on a grid which obey a few simple rules to produce complex patterns.
 
 ## Rules:
 
